@@ -6,7 +6,7 @@
 /*   By: tmosoeu <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/25 15:11:52 by tmosoeu           #+#    #+#             */
-/*   Updated: 2020/06/25 16:38:53 by tmosoeu          ###   ########.fr       */
+/*   Updated: 2020/06/25 16:55:14 by tmosoeu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,4 @@ int	ft_iterative_power(int nb, int power)
 	return x;
 }
 
-int main() 
-{ int nb = -5;
-	int power = 10;
-
-	printf("x(%d;%d) = %d", nb,power, ft_iterative_power (nb, power));
-	return 0;
 }
